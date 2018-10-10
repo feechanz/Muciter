@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Muciter</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="image_description">Image</string>
+
+    <string name="hint_search">Apa yang Anda cari?</string>
+</resources>
