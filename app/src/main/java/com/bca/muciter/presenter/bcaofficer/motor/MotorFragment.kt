@@ -26,6 +26,12 @@ class MotorFragment : BaseFragment(), MotorContract.View {
     private var motorsFilter: MutableList<Motor> = mutableListOf()
     private var brand: String = "all"
 
+    companion object Factory{
+        fun getInstance(): MotorFragment {
+            return MotorFragment()
+        }
+    }
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
@@ -40,7 +46,7 @@ class MotorFragment : BaseFragment(), MotorContract.View {
     override fun initBaseView(){
         adapter = MotorAdapter(motorsFilter){ motor ->
             //on card motor clicked
-            TODO("open detail motor from Card")
+            //TODO("open detail motor from Card")
         }
         val layoutManager = GridLayoutManager(context, 2)
 

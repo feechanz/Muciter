@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".presenter.LoginActivity">
 
     <ImageView
         android:id="@+id/logoImageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:contentDescription="@string/image_description"
         android:layout_marginTop="50dp"
-        android:background="@android:color/black"
+        android:src="@drawable/ridelogo_white"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -31,7 +32,11 @@
             android:id="@+id/usernameEditText"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:gravity="center"
             android:inputType="textNoSuggestions"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="#bcbcbc"
+            android:backgroundTint="#bcbcbc"
             android:imeOptions="actionNext"
             android:hint="@string/username"/>
     </android.support.design.widget.TextInputLayout>
@@ -50,13 +55,19 @@
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:gravity="center"
             android:inputType="textPassword"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="#bcbcbc"
+            android:backgroundTint="#bcbcbc"
             android:imeOptions="actionDone"
             android:hint="@string/password"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/loginButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryText"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:textAllCaps="true"

@@ -42,7 +42,7 @@ class MotorPresenter(private val view: MotorContract.View) : MotorContract.Prese
         val motor7 = Motor(0,"", "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//90/MTA-2208752/yamaha_yamaha-lexi-125-vva-sepeda-motor_full05.jpg", "Yamaha Lexi 125 VVA", 17998000.00,"Motor Matic\nMesin generasi baru Blue Core 125cc\nDilengkapi dengan Liquid Cooled sehingga Lebih efisien, bertenaga dan Handal\nTeknologi VVA menjaga tenaga dan torsi maksimum di setiap putaran mesin\nLampu depan menggunakan sistem pencahayaan LED sehingga lebih terang serta didesain dengan ukuran besar memberikan kesan mewah dan elegan","Yamaha","Liquid Cooled 4-stroke, SOHC, VVA, SMG","124.7 cc","4.2 L","V-belt automatic" )
         motors.add(motor7)
 
-        view.showSnackbar("Data Loaded!")
+        //view.showSnackbar("Data Loaded!")
         view.loadData(motors)
     }
 

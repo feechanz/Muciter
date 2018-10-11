@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#0066ae</color>
+    <color name="colorPrimaryDark">#003c7e</color>
     <color name="colorAccent">#e4e4e4</color>
 
     <color name="colorPrimaryText">#FFFFFF</color>
     <color name="colorSecondaryText">#BCBCBC</color>
+
+    <color name="colorHintText">#BCBCBC</color>
 
     <color name="motor_title">#4c4c4c</color>
     <color name="motor_price">#ff9100</color>

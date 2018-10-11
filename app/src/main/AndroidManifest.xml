@@ -16,12 +16,19 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presenter.bcaofficer.MainActivity"
-            android:windowSoftInputMode="stateHidden"></activity>
-        <activity android:name=".presenter.LoginActivity"></activity>
+        <activity
+            android:name=".presenter.bcaofficer.MainActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".presenter.LoginActivity" />
+        <activity android:name=".presenter.bcaofficer.WelcomeActivity" />
+        <activity
+            android:name=".presenter.bcaofficer.HomeCustomerActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".presenter.bcaofficer.BrandMotorActivity"></activity>
     </application>
 
 </manifest>
