@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="profile_picture" type="id">id</item>
+    <item name="nameTextView" type="id">id</item>
+    <item name="subtitleTextView" type="id">id</item>
+</resources>

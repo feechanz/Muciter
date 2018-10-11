@@ -21,6 +21,8 @@ class MotorViewHolder(view: View): RecyclerView.ViewHolder(view){
         motorPriceTextView.text = "Rp. " +toDecimalString(motor.motorPrice)
         Picasso.get().load(motor.motorThumbnail).into(motorThumbnail)
 
-        itemView.onClick { listener(motor) }
+        motorThumbnail.onClick {
+            listener(motor)
+        }
     }
 }

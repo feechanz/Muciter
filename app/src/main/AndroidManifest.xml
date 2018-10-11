@@ -28,7 +28,8 @@
         <activity
             android:name=".presenter.bcaofficer.HomeCustomerActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".presenter.bcaofficer.BrandMotorActivity"></activity>
+        <activity android:name=".presenter.bcaofficer.BrandMotorActivity" />
+        <activity android:name=".presenter.bcaofficer.MotorDetailActivity"></activity>
     </application>
 
 </manifest>

@@ -41,6 +41,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
                 android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -48,14 +49,20 @@
                     android:orientation="horizontal">
                     <ImageButton
                         android:layout_width="0dp"
-                        android:layout_height="75dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="10dp"/>
+                        android:layout_margin="10dp"
+                        android:scaleType="centerInside"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:src="@drawable/ic_honda"/>
                     <ImageButton
                         android:layout_width="0dp"
-                        android:layout_height="75dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="10dp"/>
+                        android:layout_margin="10dp"
+                        android:scaleType="centerInside"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:src="@drawable/ic_yamaha"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -63,14 +70,20 @@
                     android:orientation="horizontal">
                     <ImageButton
                         android:layout_width="0dp"
-                        android:layout_height="75dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="10dp"/>
+                        android:layout_margin="10dp"
+                        android:scaleType="centerInside"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:src="@drawable/ic_suzuki"/>
                     <ImageButton
                         android:layout_width="0dp"
-                        android:layout_height="75dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:layout_margin="10dp"/>
+                        android:layout_margin="10dp"
+                        android:scaleType="centerInside"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:src="@drawable/ic_kawasaki"/>
                 </LinearLayout>
                 <Button
                     android:id="@+id/allBrandButton"

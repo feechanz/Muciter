@@ -14,8 +14,11 @@ import com.bca.muciter.R
 import com.bca.muciter.adapter.MotorAdapter
 import com.bca.muciter.base.BaseFragment
 import com.bca.muciter.model.Motor
+import com.bca.muciter.presenter.bcaofficer.MotorDetailActivity
 import kotlinx.android.synthetic.main.fragment_motor.*
 import org.jetbrains.anko.design.snackbar
+import org.jetbrains.anko.startActivity
+import org.jetbrains.anko.support.v4.ctx
 import org.jetbrains.anko.support.v4.onRefresh
 
 
@@ -46,7 +49,7 @@ class MotorFragment : BaseFragment(), MotorContract.View {
     override fun initBaseView(){
         adapter = MotorAdapter(motorsFilter){ motor ->
             //on card motor clicked
-            //TODO("open detail motor from Card")
+            ctx.startActivity<MotorDetailActivity>("motor" to motor)
         }
         val layoutManager = GridLayoutManager(context, 2)
 

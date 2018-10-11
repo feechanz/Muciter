@@ -1,7 +1,10 @@
 package com.bca.muciter.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 class Motor(
     val id: Long? = null,
 
@@ -34,6 +37,6 @@ class Motor(
 
     @SerializedName("motorTransmission")
     var motorTransmission: String? = null
-    )
+    ): Parcelable
 {
 }
