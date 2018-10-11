@@ -1,9 +1,9 @@
-package com.bca.muciter.presenter.bcaofficer
+package com.bca.muciter.presenter.bcaofficer.motor
 
 import android.text.TextUtils
 import com.bca.muciter.model.Motor
 
-class MainPresenter(private val view: MainContract.View) : MainContract.Presenter {
+class MotorPresenter(private val view: MotorContract.View) : MotorContract.Presenter {
     override fun loadData(brand: String){
         val motors = mutableListOf<Motor>()
 

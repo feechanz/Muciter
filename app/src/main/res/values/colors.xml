@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#e4e4e4</color>
 
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorSecondaryText">#BCBCBC</color>
+
     <color name="motor_title">#4c4c4c</color>
     <color name="motor_price">#ff9100</color>
 </resources>

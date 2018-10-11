@@ -1,10 +1,10 @@
-package com.bca.muciter.presenter.bcaofficer
+package com.bca.muciter.presenter.bcaofficer.motor
 
 import com.bca.muciter.base.BaseView
 import com.bca.muciter.model.Motor
 
-interface MainContract{
-    interface View: BaseView{
+interface MotorContract {
+    interface View: BaseView {
         fun initBaseView()
         fun loadData(data: List<Motor>)
         fun loadFilteredData(data: List<Motor>)

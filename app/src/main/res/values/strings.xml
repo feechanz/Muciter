@@ -7,4 +7,10 @@
     <string name="image_description">Image</string>
 
     <string name="hint_search">Apa yang Anda cari?</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_order">Order</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
